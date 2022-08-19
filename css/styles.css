@@ -99,6 +99,9 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+.color-body{
+  background-color: var(--bs-secondary);
+}
 
 hr {
   margin: 1rem 0;
@@ -4126,6 +4129,8 @@ textarea.form-control-lg {
 }
 
 .navbar {
+  width: 200px;
+  height: 100vh;
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
   --bs-navbar-color: rgba(0, 0, 0, 0.55);
@@ -4179,11 +4184,14 @@ textarea.form-control-lg {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
 .navbar-brand {
+  margin-left: .5rem;
+  font-size: 1.5em;
+  font-weight: bold;
   padding-top: var(--bs-navbar-brand-padding-y);
   padding-bottom: var(--bs-navbar-brand-padding-y);
   margin-right: var(--bs-navbar-brand-margin-end);
-  font-size: var(--bs-navbar-brand-font-size);
   color: var(--bs-navbar-brand-color);
   text-decoration: none;
   white-space: nowrap;
