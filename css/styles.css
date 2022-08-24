@@ -117,6 +117,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
+  
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -488,7 +489,7 @@ progress {
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 300;
 }
 
@@ -4802,10 +4803,7 @@ textarea.form-control-lg {
 
 .card-img-overlay {
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  left: 170px;
   padding: var(--bs-card-img-overlay-padding);
   border-radius: var(--bs-card-inner-border-radius);
 }
@@ -12167,9 +12165,19 @@ textarea.form-control-lg {
   
   
 }
-#argprograma{
-  height: 30%;
-  width: 30%;
-  
+
+#section{
+  position: absolute;
+  left: 200px;
+  top: 200px;
+  padding: var(--bs-card-img-overlay-padding);
+  border-radius: var(--bs-card-inner-border-radius);
 }
 
+.generalfont{
+  font-family: sans-serif;
+  color:var(--bs-gray-100);
+}
+.socialicons{
+  color: var(--bs-gray-100);
+}
