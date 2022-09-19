@@ -12197,4 +12197,11 @@ article > p{
   text-align: left;
 
 }
+article > ul > li{
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  color:var(--bs-gray-100);
+  text-align: left;
+
+}
 
