@@ -7861,6 +7861,8 @@ textarea.form-control-lg {
 
 .d-grid {
   display: grid !important;
+  color:white;
+  background-color:black;
 }
 
 .d-table {
@@ -12203,5 +12205,12 @@ article > ul > li{
   color:var(--bs-gray-100);
   text-align: left;
 
+}
+#contact{
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  color:var(--bs-gray-100);
+  text-align: center;
+  
 }
 
