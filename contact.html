@@ -29,10 +29,11 @@
 </head>
 <body class="color-body">
     <!--lib Saas and css changes: navbar, navbar-brand, card-img-overlay,section, generalfonts, socialicons
-        canvas, navbar-toggler, myname, li> a, article>p -->
+        canvas, navbar-toggler, myname, li> a, article>p, form-control-->
 
     <!-- external scripts js -->
     <script src="/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/js/webprg.jsdelivr.js"></script>
 
 
     <!-- Header img-->
@@ -43,16 +44,24 @@
     <!-- section education-->
 
     <section id="section">
-        <h1 class="h1 generalfont"><mark class="mark">C</mark>ontact</h1>
-        <div class="container-fluid">
-            <div class="d-grid text-center" style="--bs-gap: .25rem 1rem;">
-                <div class="g-col-6">.g-col-6</div>
-                <div class="g-col-6">.g-col-6</div>
-            
-                <div class="g-col-6">.g-col-6</div>
-                <div class="g-col-6">.g-col-6</div>
+        <div class="container">
+            <h1 class="h1 generalfont"><mark class="mark">C</mark>ontact</h1>
+            <article>
+                <p>I'm interested in freelance opportunities or Fulltime work in Tecnology Industry.<br> However, if you have other
+                request or question, don't hesitate to use the form.</p>
+
+            </article>
+
+            <div class="mb-3">
+                <input type="name" class="form-control" id="nameform" placeholder="Name">
+                <input type="email" class="form-control" id="emailform" placeholder="Email">
+                <input type="subject" class="form-control" id="subjectform" placeholder="Subject">
             </div>
-            <button class="btn btn-primary">Send Mesagge</button>
+            <div class="mb-3">
+                <textarea class="form-control" id="mesaggeform" rows="6" placeholder="Mesagge"></textarea>
+            </div>
+
+            <button class="btn btn-primary btn-xs" type="button" id="btn-save">Send Mesagge</button>
         </div>
 
         
