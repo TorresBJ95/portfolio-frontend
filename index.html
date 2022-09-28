@@ -37,7 +37,7 @@
 
     <!-- external scripts js -->
     <script src="/libs/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="/js/webprg.jsdelivr.js"></script>
+    <script src="/js/scripts.js"></script>
 
     <!-- Header img-->
     <header class="card-img-overlay">
@@ -49,13 +49,23 @@
         <section id="section">
             <h1 class="h1 generalfont">My, Myself & <mark class="mark">I</mark></h1>
             <article>
-                <p>Estudiante de segundo año de Ingeniería en Informática, manejo
+                
+                <p id="text-aboutme">Estudiante de segundo año de Ingeniería en Informática, manejo
                     2 lenguajes de programación tales
                     como Python y JavaScript.<br> He desarrollado 1 juego como proyecto universitario, y tengo experiencia en
                     soporte IT.<br>
                     Quiero trabajar en una compañía para aportar mis conocimientos, a la vez que potencio mi perfil profesional.
                 </p>
-        
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-pencil-square"
+                    viewBox="0 0 20 20" id="icon-edit" onclick="cambiar_parrafo()">
+                    <path
+                        d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                    <path fill-rule="evenodd"
+                        d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z" />
+                </svg>
+                <div>
+                    <input id="edit-aboutme" type="text" oninput="myFunction2(this.value)" style="display: none;">
+                </div>
             </article>
         
         </section>

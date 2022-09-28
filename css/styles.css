@@ -12199,6 +12199,8 @@ article > p{
   font-family: Arial, Helvetica, sans-serif;
   color:var(--bs-gray-100);
   text-align: left;
+  
+  
 
 }
 article > ul > li{
@@ -12219,4 +12221,10 @@ article > ul > li{
   background-color: #000;
   border-color: white !important;
 
+}
+
+#icon-edit{
+  color: white;
+  margin-left: 1050px;
+  margin-top: -200px;
 }
