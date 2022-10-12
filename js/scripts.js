@@ -13,7 +13,7 @@ function logMessage(message){
 }
 
 //controla si se presiono un enter
-let textarea=document.getElementById("edit-aboutme")
+let textarea = document.getElementById("edit-aboutme");
 textarea.addEventListener('keyup', (e) => {
     logMessage(`Key "${e.key}" released [event: keyup]`);
     if (e.key=="Enter"){

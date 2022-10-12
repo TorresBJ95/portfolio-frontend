@@ -12158,7 +12158,7 @@ textarea.form-control-lg {
   background-color: #cc9a06;
 }/*# sourceMappingURL=styles.css.map */
 
-
+/*# Own Css */
 #section{
   position: absolute;
   top: 200px;
@@ -12181,7 +12181,7 @@ textarea.form-control-lg {
   font-size: large;
   font-family:Georgia, 'Times New Roman', Times, serif;
   color: #000;
-  margin-bottom: 130px;
+  margin-bottom: 50px;
   text-align: center;
 
 }
@@ -12229,4 +12229,16 @@ article > ul > li{
   margin-top: -200px;
 }
 
+#myphoto{
+  float: left;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-color: #000;
 
+}
+#fullstack{
+  float: left;
+  margin-top: 15px;
+  border-radius: 50px;
+  border-color: #000;
+}
