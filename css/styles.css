@@ -4152,8 +4152,7 @@ textarea.form-control-lg {
   --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
   width: 10%;
   height: 100vh;
-  align-items: flex-start;
-  position: relative;
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12160,11 +12159,11 @@ textarea.form-control-lg {
 
 /*# Own Css */
 #section{
-  position: absolute;
-  top: 200px;
+  float: left;
   padding: var(--bs-card-img-overlay-padding);
   border-radius: var(--bs-card-inner-border-radius);
   margin-left: 250px;
+  margin-top: 180px;
 }
 
 .generalfont{
@@ -12194,7 +12193,7 @@ li > a{
 
 }
 
-article > p{
+section > p{
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
   color:var(--bs-gray-100);
@@ -12238,7 +12237,9 @@ article > ul > li{
 }
 #fullstack{
   float: left;
+  margin-left: 900px;
   margin-top: 15px;
   border-radius: 50px;
   border-color: #000;
 }
+
