@@ -12193,14 +12193,12 @@ li > a{
 
 }
 
-section > p{
+section > p, section > div > p{
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
   color:var(--bs-gray-100);
   text-align: left;
   
-  
-
 }
 article > ul > li{
   font-size: large;
@@ -12224,8 +12222,8 @@ article > ul > li{
 
 #icon-edit{
   color: white;
-  margin-left: 1050px;
-  margin-top: -200px;
+  float: right;
+  margin-left: 900px;
 }
 
 #myphoto{
