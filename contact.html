@@ -16,10 +16,8 @@
     <link rel="icon" type="image/x-icon" href="img/torreslogo.PNG">
 </head>
 <body class="color-body">
-    <!--lib Saas and css changes: navbar, navbar-brand, card-img-overlay,section, generalfonts, socialicons
-        canvas, navbar-toggler, myname, li> a, article>p, form-control, fullstack, myphoto-->
 
-    <div class="container d-flex flex-column flex-md-row">
+    <div class="container-fluid d-flex flex-column flex-md-row">
         <!-- navbar menu-->
         <nav class="navbar-changes navbar navbar-expand-md navbar-dark bg-dark d-flex flex-md-column">
             <div class="container-fluid">
@@ -88,41 +86,40 @@
             </div>
     
         </nav>
+        <!-- section contact-->
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-6">
+                    <h1 class="generalfont"><mark class="mark">C</mark>ontact</h1>
+                </div>
+                <div class="col-6 col-md-6">
+                    <img src="img/torreslogo.PNG" id="fullstack" alt="full stack developer">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <section id="section">
+                        <div class="mb-3">
+                            <label for="nameform" class="text-aboutme">I'm interested in freelance opportunities or Full Time work in Technology
+                            Industry.
+                            <br> However, if you have other request or question, don't hesitate to use the form.</label>
+                            <input type="name" class="form-contact form-control" id="nameform" placeholder="Name">
+                            <input type="email" class="form-contact form-control" id="emailform" placeholder="Email">
+                            <input type="subject" class="form-contact form-control" id="subjectform" placeholder="Subject">
+                        </div>
+                    
+                        <div class="mb-3">
+                            <textarea class="form-contact form-control" id="mesaggeform" rows="6" placeholder="Mesagge"></textarea>
+                        </div>
+                    
+                        <button class="btn btn-primary btn-xs form-contact" type="button" id="btn-save">Send Mesagge</button>
+                    </section>
+
+                </div>
+            </div>
+        </div>
     
     </div>
-
-    <main class="ps-0 ps-md-5 flex-grow-1">
-    
-    </main>
-    
-    <!-- Header img-->
-    <header class="card-img-overlay">
-        <img src="img/torreslogo.PNG" width="200" height="150" id="fullstack" alt="full stack developer">
-    </header>
-
-    <!-- section education-->
-
-    <section id="section">
-        
-        <h1 class="h1 generalfont"><mark class="mark">C</mark>ontact</h1>
-            
-        <p>I'm interested in freelance opportunities or Full Time work in Technology Industry.<br> However, if you have other request
-        or question, don't hesitate to use the form.
-        </p>
-
-        <div class="mb-3">
-            <input type="name" class="form-control" id="nameform" placeholder="Name">
-            <input type="email" class="form-control" id="emailform" placeholder="Email">
-            <input type="subject" class="form-control" id="subjectform" placeholder="Subject">
-        </div>
-
-        <div class="mb-3">
-            <textarea class="form-control" id="mesaggeform" rows="6" placeholder="Mesagge"></textarea>
-        </div>
-
-        <button class="btn btn-primary btn-xs" type="button" id="btn-save">Send Mesagge</button>    
-        
-    </section>
 
     <!-- external scripts js -->
     <script src="scripts.js" defer></script>

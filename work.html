@@ -17,10 +17,8 @@
 </head>
 
 <body class="color-body">
-    <!--lib Saas and css changes: navbar, navbar-brand, card-img-overlay,section, generalfonts, socialicons
-        canvas, navbar-toggler, myname, li> a, article>p, form-control, fullstack, myphoto -->
 
-    <div class="container d-flex flex-column flex-md-row">
+    <div class="container-fluid d-flex flex-column flex-md-row">
         <!-- navbar menu-->
         <nav class="navbar-changes navbar navbar-expand-md navbar-dark bg-dark d-flex flex-md-column">
             <div class="container-fluid">
@@ -89,45 +87,34 @@
             </div>
     
         </nav>
-    
-    </div>
-    
-    <main class="ps-0 ps-md-5 flex-grow-1">
-    
-    </main>
-
-    <!-- Header img-->
-    <header class="card-img-overlay">
-        <img src="img/torreslogo.PNG" width="200" height="150" id="fullstack" alt="full stack developer">
-    </header>
-
-    <!-- section education-->
-    
-    <section id="section">
-        <h1 class="h1 generalfont"><mark class="mark">W</mark>orks</h1>
+        <!-- section works-->
         <div class="container">
-            <div class="row row-cols-2">
-                <div class="col">
-                    <h3 class="h3 generalfont">Industry Experience</h1>
+            <div class="row">
+                <div class="col-6 col-md-6">
+                    <h1 class="generalfont"><mark class="mark">W</mark>orks</h1>
                 </div>
-                <div class="col">
-                    <h3 class="h3 generalfont">Own works</h3>
+                <div class="col-6 col-md-6">
+                    <img src="img/torreslogo.PNG" id="fullstack" alt="full stack developer">
                 </div>
-                <div  class="col">
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <h3 class="h3 generalfont">Industry Experience</h3>
                     <article>
                         <ul>
                             <li>
                                 Compunet C.A, Venezuela, 2013-2017
                                 <ul>
                                     <li>Support IT, Maintenance on hardware and software</li>
-
+                    
                                 </ul>
-                                    
+                    
                             </li>
                         </ul>
                     </article>
-                    </div>
-                <div class="col">
+                </div>
+                <div class="col-12 col-md-6">
+                    <h3 class="h3 generalfont">Own works</h3>
                     <article>
                         <ul>
                             <li>
@@ -135,19 +122,18 @@
                                 <ul>
                                     <li>
                                         I made a game with programming language python, Tools:
-                                        Tkinter, Python, Data Structure, Algorithms by order.  
-                                        
+                                        Tkinter, Python, Data Structure, Algorithms by order.
+                    
                                     </li>
                                 </ul>
                             </li>
                         </ul>
                     </article>
                 </div>
-                      
             </div>
-        
-        </section>
+        </div>
     
+    </div>
 
     <!-- external scripts js -->
     <script src="scripts.js" defer></script>

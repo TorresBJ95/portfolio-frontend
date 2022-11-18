@@ -31,7 +31,7 @@
 #img-size{
     width: 180px;
     height: 180px;
-    margin: 20px;
+    margin: 1px;
 }
 .navbar-changes{
     max-width: 760px;
@@ -40,15 +40,20 @@
 }
 .btn-toggler{
     position: absolute;
-    right: 30px;
-    bottom: 170px;
+    right: 5px;
+    bottom: 120px;
     
 }
 .offcanvas-title{
     margin-left: 80px;
 }
 .social-icons{
-        margin-right: 150px;
+    margin-right: 150px;
+}
+div > article{
+    font-family: sans-serif;
+    color: var(--bs-gray-100);
+    text-align: justify;
 }
 
 @media (min-width: 768px){
@@ -85,7 +90,15 @@
     }
     #icon-edit{
     color: var(--bs-gray-100);
-    margin-right: 350px;
+    }
+    div > article{
+    font-family: sans-serif;
+    color: var(--bs-gray-100);
+    text-align: justify;
+    }
+    .form-contact{
+        max-width: 70%;
+        margin: 0px 30px;
     }
 }
 
