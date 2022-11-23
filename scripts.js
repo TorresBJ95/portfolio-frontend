@@ -1,14 +1,18 @@
 function cambiar_parrafo() {
   document.querySelector("input").style.display = "inline";
-  let container = document.querySelector("#section");
+  let container = document.querySelector(".col");
   let texto = container.querySelectorAll("div > p");
   for (let i = 0; i < texto.length; i++) {
     texto[i].textContent = "";
   }
 }
 function asignar_palabras(value) {
-  const cambio_texto = document.getElementById("text-aboutme");
-  cambio_texto.textContent = value;
+  let container = document.querySelector(".col");
+  let texto = container.querySelectorAll("div > p");
+  for (let i = 0; i < texto.length; i++) {
+    texto[i].textContent = value;
+  }
+  
 }
 
 function logMessage(message) {
